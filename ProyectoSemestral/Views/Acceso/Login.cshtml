@@ -1,0 +1,39 @@
+﻿@model Administrador
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link  href="~/css/Login.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="~/css/dron.jpg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form asp-action = "Login" asp-controller="Acceso" method="post">
+
+      <input asp-for = "Correo" type="text" id="login" class="fadeIn second" name="Correo" placeholder="Correo">
+      <span asp-validation-for="Correo" class="text-danger"></span>
+      <input type="password" id="login" class="fadeIn third" name="Clave" placeholder="Clave">
+      <input type="submit" class="fadeIn fourth" value="Ingresar">
+      <span asp-validation-for="Clave" class="text-danger"></span>  
+  </form>
+   @if (ViewData["Mensaje"] != null)
+   {
+     <div class="alert alert-danger" role="alert">
+           @ViewData["Mensaje"]
+     </div>
+   }
+  </div>
+</div>
