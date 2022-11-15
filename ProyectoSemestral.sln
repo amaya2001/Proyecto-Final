@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSemestral", "ProyectoSemestral\ProyectoSemestral.csproj", "{4B042F3A-2D81-450E-8E1E-839B6F4A9AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoSemestral", "ProyectoSemestral\ProyectoSemestral.csproj", "{4B042F3A-2D81-450E-8E1E-839B6F4A9AE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{594B837A-2CF0-4C48-98AB-3D6FB270B4C7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

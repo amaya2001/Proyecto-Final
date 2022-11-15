@@ -23,7 +23,7 @@
     <!-- Login Form -->
     <form asp-action = "Login" asp-controller="Acceso" method="post">
 
-      <input asp-for = "Correo" type="text" id="login" class="fadeIn second" name="Correo" placeholder="Correo">
+      <input asp-for = "Correo" type="text" id="login" class="fadeIn second" name="Correo" placeholder="Nombre">
       <span asp-validation-for="Correo" class="text-danger"></span>
       <input type="password" id="login" class="fadeIn third" name="Clave" placeholder="Clave">
       <input type="submit" class="fadeIn fourth" value="Ingresar">
