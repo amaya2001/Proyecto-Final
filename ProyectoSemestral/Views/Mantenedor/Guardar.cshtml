@@ -1,0 +1,52 @@
+﻿
+@model Reservas
+@{
+    ViewData["Title"] = "Guardar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Crear Venta
+  </div>
+  <div class="card-body">
+  <form asp-action = "Guardar" asp-controller="Mantenedor" method="post">
+      <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input asp-for = "Nombre" type="text" class="form-control">
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Documento</label>
+        <input asp-for = "Documento" type="text" class="form-control">
+        <span asp-validation-for="Documento" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Fecha y hora</label>
+        <input asp-for = "FechaHora" type="text" class="form-control">
+        <span asp-validation-for="FechaHora" class="text-danger"></span>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Duracion</label>
+        <input asp-for = "Duracion" type="text" class="form-control">
+        <span asp-validation-for="Duracion" class="text-danger"></span>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Lugar</label>
+        <input asp-for = "Lugar" type="text" class="form-control">
+        <span asp-validation-for="Lugar" class="text-danger"></span>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Tipo del Dispositivo</label>
+        <input asp-for = "TipoDispositivo" type="text" class="form-control">
+        <span asp-validation-for="TipoDispositivo" class="text-danger"></span>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <a asp-action="Reserva" asp-controller="Mantenedor" class="btn btn-outline-primary">Volver a la lista</a>
+  </form>
+  </div>
+</div>
