@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aGbBLnwJ/TKicgbBxQpWj7cqrseKfYyDuV4lD8WBJwM=",
+  "Hash": "gTbE7tyM2h0rBnSIbyfYHj2s41u/Dv+UNZB3yX6WYbQ=",
   "Source": "ProyectoSemestral",
   "BasePath": "_content/ProyectoSemestral",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProyectoSemestral.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\AgregarDispositivos.css",
+      "SourceId": "ProyectoSemestral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\",
+      "BasePath": "_content/ProyectoSemestral",
+      "RelativePath": "css/AgregarDispositivos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AgregarDispositivos.css"
+    },
+    {
       "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\dron.jpg",
       "SourceId": "ProyectoSemestral",
       "SourceType": "Discovered",
@@ -66,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dron.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\Guardar.css",
+      "SourceId": "ProyectoSemestral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\",
+      "BasePath": "_content/ProyectoSemestral",
+      "RelativePath": "css/Guardar.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Guardar.css"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\Lista.css",
+      "SourceId": "ProyectoSemestral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\",
+      "BasePath": "_content/ProyectoSemestral",
+      "RelativePath": "css/Lista.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Lista.css"
     },
     {
       "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\Login.css",
@@ -85,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\matenme.jpg",
+      "SourceId": "ProyectoSemestral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\",
+      "BasePath": "_content/ProyectoSemestral",
+      "RelativePath": "css/matenme.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\matenme.jpg"
+    },
+    {
       "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\Menu.css",
       "SourceId": "ProyectoSemestral",
       "SourceType": "Discovered",
@@ -100,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Menu.css"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\Reservas.css",
+      "SourceId": "ProyectoSemestral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\",
+      "BasePath": "_content/ProyectoSemestral",
+      "RelativePath": "css/Reservas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Reservas.css"
     },
     {
       "Identity": "C:\\Users\\usuario\\source\\repos\\ProyectoSemestral\\ProyectoSemestral\\wwwroot\\css\\site.css",

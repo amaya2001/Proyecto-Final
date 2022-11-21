@@ -1,0 +1,41 @@
+﻿
+@model Dispositivo
+@{
+    ViewData["Title"] = "Agregar Dispositivo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link  href="~/css/AgregarDispositivos.css" rel="stylesheet" type="text/css" />
+<body>
+<div class="card">
+  <div class="card-header">
+    Agregar Dispositivo
+  </div>
+  <div class="card-body">
+  <form asp-action = "AgregarDispositivos" asp-controller="Dispositivo" method="post">
+      <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input asp-for = "Nombre" type="text" class="form-control">
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Tipo</label>
+        <input asp-for = "Tipo" type="text" class="form-control">
+        <span asp-validation-for="Tipo" class="text-danger"></span>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Descripcion</label>
+        <input asp-for = "Descripcion" type="text" class="form-control">
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Imagen</label>
+        <input asp-for = "Imagen" type="text" class="form-control">
+        <span asp-validation-for="Imagen" class="text-danger"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <a asp-action="Listar" asp-controller="Dispositivo" class="btn btn-outline-primary">Volver a la lista</a>
+  </form>
+  </div>
+</div>
+</body>

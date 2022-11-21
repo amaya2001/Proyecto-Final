@@ -1,0 +1,33 @@
+﻿@model List<Dispositivo>
+@{
+	ViewBag.Title = "Inventario";
+}
+<link  href="~/css/Lista.css" rel="stylesheet" type="text/css" />
+
+<body>
+<div class = "card">
+    <div class = "card-header">
+        Inventario
+    </div>
+    <div class="card-body">
+		<a asp-action="AgregarDispositivos" asp-controller="Dispositivo" class="btn btn-primary">Agregar dispositivo</a>
+		<hr />
+<div class="container">
+	<div class="row">
+	@foreach(var i in Model)
+		{
+	<div class="card-deck" style="width: 18rem;">
+	<img src="@i.Imagen" class="card-img-top" alt="No se encontro imagen">
+	<div class="card-body">
+    <h5 class="card-title">@i.Nombre</h5>
+    <p class="card-text">@i.Descripcion</p>
+	</div>
+	</div>
+		}
+	</div>
+</div>
+	<a asp-action="Menu" asp-controller="Mantenedor" class="btn btn-outline-primary">Volver al menu</a>
+</div>
+</div>
+</body>
+				

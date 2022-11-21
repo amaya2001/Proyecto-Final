@@ -1,15 +1,15 @@
 ﻿@model List<Reservas>
 @{
-    ViewData["Title"] = "Listar";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Lista de Reservas";
 }
-
+<link  href="~/css/Reservas.css" rel="stylesheet" type="text/css" />
+<body>
 <div class = "card">
     <div class = "card-header">
-        Lista Venta
+        Lista de Reservas
     </div>
     <div class="card-body">
-        <a asp-action="Guardar" asp-controller="Mantenedor" class="btn btn-success">Nueva Reserva</a>
+        <a asp-action="Guardar" asp-controller="Mantenedor" class="btn btn-primary">Nueva Reserva</a>
         <hr />
         <table class="table table-bordered ">
             <thead>
@@ -28,20 +28,17 @@
                     <tr>
                         <td>@i.Nombre</td>
                         <td>@i.Documento</td>
-                        <td>@i.FechaHora</td>
+                        <td>@i.FechaHora?.ToString("MMMM/dd/yyyy")</td>
                         <td>@i.Duracion</td>
                         <td>@i.Lugar</td>
-                        <td>@i.TipoDispositivo</td>
-                    
-                    <td>
-                        <a asp-action="Eliminar" asp-controller="Mantenedor" class="btn btn-danger btn-sm" asp-route-idVenta="@i.IdReserva">Elimiar</a>
-                    </td>
+                        <td>@i.TipoDispositivo</td>      
                 </tr>
                 }
             </tbody>
 
         </table>
 
-
+     <a asp-action="Menu" asp-controller="Mantenedor" class="btn btn-outline-primary">Volver al menu</a>
     </div>
 </div>
+</body>
